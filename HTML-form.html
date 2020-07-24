@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form </title>
+</head>
+<body>
+	<!-- Single line text input controll  with attributes -->
+	First Name:<input type="text" name="First name" placeholder="First name"><br>
+	Last Name:<input type="text" name="last name" placeholder="last name" size="50" maxlength="20"><br>
+
+	<!-- password input controll -->
+	<form>
+		User Id:<input type="text" name="userid" placeholder="userid" maxlength="10"><br>
+		Password:<input type="Password" name="password" placeholder="password" maxlength="8" size="30">
+		<br><br>
+	</form>
+
+	<!-- Multiple line text input controll with attributes -->
+	Text area:<form>
+		
+		<textarea rows="5" cols="50" name="textarea" placeholder="Text area">
+			
+		</textarea>
+	</form>
+	<br>
+
+	<!-- Checkbox controll with attributes-->
+
+	<input type="Checkbox" name="C" value="on" checked="checked">C
+	<input type="Checkbox" name="Java" value="on">Java
+
+
+	<!-- Radio buttton Controll -->
+	<form>
+		<input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female"> Female
+	</form>
+	<br><br>
+
+	<!-- select box controll with attributes -->
+	<form>
+		<label for="dropdown"> Conutries :</label>
+		<select name= "dropdown" >
+			<option value="India"> India</option>
+			<option value="Australia"> Australia</option>
+			<option value="America"> America</option>
+			<option value="Japan"> Japan</option>
+		</select>
+	</form>
+
+	<br><br>
+
+	<!-- file upload Box with attributes-->
+	<form>
+		<input type="file" name="uploadfile" accept="file/*">
+	</form>
+
+	<br><br>
+
+
+	<!-- Buttton Controlls-->
+	<font>
+		<input type="button" name="Submit" value="submit">
+		<input type="button" name="Reset" value="Reset">
+		<input type="button" name="ok" value="ok"><br><br>
+		Image button:<input type="image" name="imagebutton" src ="Image.jpg" width="30" height="30">
+	</font>
+
+
+
+</body>
+</html>
